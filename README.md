@@ -30,35 +30,30 @@ node shrink.js
 Restart server. Check if services properly restarted.
 
 1. We run the shell script restart.sh which initiates the server restart.
-```
-sh restart.sh
-```
-
+  ```
+  sh restart.sh
+  ```
 2. It first calls the file reboot.js which reboots the server.
-```
-echo "Preparing to reboot server"
-#call reboot script to reboot
-node reboot.js
-```
-
+  ```
+  echo "Preparing to reboot server"
+  #call reboot script to reboot
+  node reboot.js
+  ```
 3. Next, we induce a 30 second delay in the script so the server is back up fully.
-```
-echo "Getting services back up"
-#30 seconds delay to allow for server to back up
-sleep 30
-```
-
+  ```
+  echo "Getting services back up"
+  #30 seconds delay to allow for server to back up
+  sleep 30
+  ```
 4. Further, it runs the restartplaybook.yml file using ansible to get the application back up.
-```
-#playbook to run the application back
-ansible-playbook -i inventory restartplaybook.yml
-```
-
+  ```
+  #playbook to run the application back
+  ansible-playbook -i inventory restartplaybook.yml
+  ```
 5. Since our application runs on port 3000, to check if our service is back up, we use the netstat command as below.
-```
-netstat -anp 2> /dev/null | grep :3000
-```
-
+  ```
+  netstat -anp 2> /dev/null | grep :3000
+  ```
 6. We can see that the node application is running on the same.
 
 ![Screencast](https://github.com/shivamgulati1991/DevOps-SpecialMilestone/blob/master/Screens/2.gif)
