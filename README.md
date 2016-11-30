@@ -18,7 +18,7 @@ We used Digital Ocean droplets for this task. Droplet 1 maintains the Jenkins bu
 
 1. Create a Jenkins job for this task.
 
-![Screencast](https://github.com/shivamgulati1991/DevOps-Milestone3/blob/master/Screens/1.gif)
+![Screencast](https://github.com/shivamgulati1991/DevOps-SpecialMilestone/blob/master/Screens/1.gif)
 
 ### Restart Monkey
 
@@ -26,4 +26,4 @@ We used Digital Ocean droplets for this task. Droplet 1 maintains the Jenkins bu
 
 1. Create a Jenkins job for this task.
 
-![Screencast](https://github.com/shivamgulati1991/DevOps-Milestone3/blob/master/Screens/2.gif)
+![Screencast](https://github.com/shivamgulati1991/DevOps-SpecialMilestone/blob/master/Screens/2.gif)
