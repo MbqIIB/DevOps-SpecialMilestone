@@ -48,7 +48,7 @@ echo "Getting services back up"
 sleep 30
 ```
 
-* Further, it runs the restartplaybook.yml file using ansible to get the application back up.
+* Further, it runs the restartplaybook.yml file using ansible to get the services back up.
 ```
 #playbook to run the application back
 ansible-playbook -i inventory restartplaybook.yml
