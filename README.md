@@ -54,11 +54,6 @@ sleep 30
 ansible-playbook -i inventory restartplaybook.yml
 ```
 
-* Since our application runs on port 3000, to check if our service is back up, we use the netstat command as below.
-```
-netstat -anp 2> /dev/null | grep :3000
-```
-
-* We can see that the node application is running on the same.
+* We can go the browser and run the application on port 3000 to see if it is back up.
 
 ![Screencast](https://github.com/shivamgulati1991/DevOps-SpecialMilestone/blob/master/Screens/2.gif)
