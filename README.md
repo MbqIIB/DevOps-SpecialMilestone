@@ -23,7 +23,7 @@ Shrink resources available on server.
 node shrink.js
 ```
 
-* Our droplet size was shrinked from 1gb to 512mb.
+* Our droplet size was shrinked from a memory of 1gb to 512mb.
 
 ![Screencast](https://github.com/shivamgulati1991/DevOps-SpecialMilestone/blob/master/Screens/1.gif)
 
